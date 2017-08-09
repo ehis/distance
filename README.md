@@ -1,18 +1,10 @@
-# topogo
-A Geometry Library in Go 🗺
+# distance-go
 
-Supported geometries include:
-
-- Point
-- LineString
-- Polygon
-- MultiPoint
-- MultiLineString
-- MultiPolygon
-
+Using the (Haversine formula)[https://en.wikipedia.org/wiki/Haversine_formula] to calculate the
+great-circle distance between 2 points.
 
 ## Usage
 
- - `Distance` - returns the great circle distance between 2 points
+ - `distance.GreatCircle()` - returns the great-circle distance between 2 points
 
-**Inspiration from [_topo_ an elixir geometry library](https://github.com/pkinney/topo)**
+**Inspiration from [distance an elixir library](https://github.com/pkinney/distance)**
