@@ -1,4 +1,4 @@
-package topogo_test
+package distance_test
 
 import (
 	. "github.com/onsi/ginkgo"
@@ -7,7 +7,7 @@ import (
 	"testing"
 )
 
-func TestTopogo(t *testing.T) {
+func TestDistance(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Topogo Suite")
+	RunSpecs(t, "Distance Suite")
 }

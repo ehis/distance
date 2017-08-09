@@ -1,4 +1,4 @@
-package topogo
+package distance
 
 import "math"
 

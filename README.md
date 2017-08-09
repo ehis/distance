@@ -1,4 +1,4 @@
-# distance-go
+# distance
 
 Using the [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula) to calculate the
 great-circle distance between 2 points.

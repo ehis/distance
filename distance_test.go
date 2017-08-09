@@ -1,7 +1,7 @@
-package topogo_test
+package distance_test
 
 import (
-	. "github.com/topogo"
+	. "github.com/distance"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
