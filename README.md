@@ -7,4 +7,4 @@ great-circle distance between 2 points.
 
  - `distance.GreatCircle()` - returns the great-circle distance between 2 points
 
-**Inspiration from [distance an elixir library](https://github.com/pkinney/distance)**
+**Inspiration from [_distance_ - an elixir library](https://github.com/pkinney/distance)**
