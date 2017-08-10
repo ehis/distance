@@ -1,11 +1,9 @@
 version: 2
 jobs: 
   build: 
-    working_directory: /go/src/github.com/ehis/distance
-
-  docker:
-    - image: circleci/golang:1.8
-  
+    docker:
+      - image: circleci/golang:1.8
+    working_directory: /go/src/github.com/ehis/distance  
   steps: 
     - checkout
     - run: ./scripts/install-deps.sh
