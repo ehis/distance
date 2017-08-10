@@ -1,0 +1,19 @@
+version: 2
+jobs: 
+  build: 
+    working_directory: /go/src/github.com/ehis/distance
+
+  docker:
+    - image: circleci/golang:1.8
+  
+  steps: 
+    - checkout
+    - run: ./scripts/install-deps.sh
+    - run: 
+        name: Tests
+        command: ginkgo --cover -trace -v -r 
+    - run: go tool cover -html=distance.coverprofile -o distance-coverage.html
+
+    - store_artifacts:
+        path: distance-coverage.html
+        destination: distance-coverage.html
