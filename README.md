@@ -1,5 +1,7 @@
 # distance
 
+[![CircleCI](https://circleci.com/gh/ehis/distance/tree/master.svg?style=svg)](https://circleci.com/gh/ehis/distance/tree/master)
+
 Using the [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula) to calculate the
 great-circle distance between 2 points.
 
