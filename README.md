@@ -13,4 +13,24 @@ go get -u github.com/ehis/distance
 
  - `distance.GreatCircle()` - returns the great-circle distance between 2 points
 
+ ```go
+// []float64{longitude, latitude}
+pt1 := []float64{-180, 40.71427}
+pt2 := []float64{180, 40.71427}
+
+d := distance.GreatCircle(pt1, pt2) 
+
+ ```
+
+ - `distance.PointSegment()` - return the distance between a point and the closest point on a line segment.
+
+
+ ```go
+pt := []float64{3, 2}
+pt1 := []float64{-2, 1}
+pt2 := []float64{5, 3}
+d := distance.PointSegment(pt, pt1, pt2)
+
+ ```
+
 **Inspiration from [_distance_ - an elixir library](https://github.com/pkinney/distance)**
