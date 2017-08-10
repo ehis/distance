@@ -26,6 +26,7 @@ d := distance.GreatCircle(pt1, pt2)
 
 
  ```go
+// []float64{x, y}
 pt := []float64{3, 2}
 pt1 := []float64{-2, 1}
 pt2 := []float64{5, 3}
