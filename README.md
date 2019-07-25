@@ -13,7 +13,7 @@ go get -u github.com/ehis/distance
 
 ## Usage
 
- - `distance.GreatCircle()` - returns the great-circle distance between 2 points
+ - `distance.GreatCircle()` - returns the great-circle distance between 2 points.
 
  ```go
 // []float64{longitude, latitude}
